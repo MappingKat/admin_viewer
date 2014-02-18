@@ -1,12 +1,13 @@
 require 'spec_helper'
 
 describe ReviewFetcher do
-  describe 'create'. :vcr do
+  context 'create', :vcr do
+    pending
     it 'returns review and status' do
       params = {'name' => 'Larry',
-                'email' => 'goodstuff@great.com',
-                'title' => 'decent place',
-                'content' => 'good atmosphere',
+                'email' => 'goodstuff@example.com',
+                'title' => 'Decent Place',
+                'content' => 'Good Atmosphere',
                 'market_id' => '6'}
       review, status = Review.new(params).save
       expect(status).to eq(201)
