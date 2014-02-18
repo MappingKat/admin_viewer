@@ -1,4 +1,10 @@
-admin_viewer
-============
+FreshFinder Admin Dashboard
+===========================
 
-View feed of search results fro m freshfinder as well as updated reviews. 
+A backbone app to read reviews and search queries for FreshFinder. 
+
+Gathering Reviews 
+----------------------
+As admin user, can view all of the reviews that are being made by location of farmer's market
+
+As admin user, can view all of the searchs conducted 
